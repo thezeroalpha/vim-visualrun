@@ -6,6 +6,8 @@ So this lets you run Vim commands from anywhere.
 ## What?
 This plugin lets you visually select a range of lines and then run them as Vim commands.
 
+![Demo of visualrun](demo.gif)
+
 The plugin exposes one visual mode mapping:
 
 * `<Plug>VisualRunCommands`: run the visually selected lines as Vim commands
