@@ -15,6 +15,11 @@ The plugin exposes one visual mode mapping:
 There are no default mappings (by design, so as not to force mappings on users), so you need to map this `<Plug>` yourself.
 For example, by putting this line in your .vimrc: `vmap <silent> <leader><cr> <Plug>VisualRunCommands`.
 
+You can define two global variables to disable loading parts of the plugin:
+
+* `g:loaded_visualrun`: disable the entire plugin
+* `g:loaded_visualrun_autoload`: disable autoloaded code
+
 **Disclaimer:** this code is not extensively tested.
 It works for me, running Vim 8.2 in the terminal on macOS, but it's not guaranteed to work for others.
 It might not work in Neovim, as I don't use Neovim.
